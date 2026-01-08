@@ -13,6 +13,7 @@ public class CartItem {
         addedToCart=false;
 
     }
+    //this are getter method
 
     public int getProductId() {
         return productId;
@@ -34,7 +35,7 @@ public class CartItem {
         return addedToCart;
     }
 
-
+    //this are setter method
     public void setUnitPrice(double unitPrice){
         if(unitPrice>0){
             this.unitPrice=unitPrice;

@@ -12,6 +12,7 @@ public class CartManager {
 
         CartItem selectedItem = null;
 
+
         while (true) {
             System.out.println("----:E_Commerece Shopping Cart Manager:--");
             System.out.println("\n1. Egg  2. Milk  3. Noodles");
